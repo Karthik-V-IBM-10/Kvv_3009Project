@@ -11,10 +11,17 @@ packages:
   version: 10.3.0.0.34
   wpmServer: https://packages.webmethods.io
   wpmRegistry: licensed
+- name: DADA_ExtendedProperty
+  gitServerName: kvv_shared
+  gitUrl: https://github.com/ParmelaDohling579
+  gitUsername: Karthik-V-IBM-10
+  gitBranch: main
 services:
 - serviceName: project.kvv_3009.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections:mssql
   packages:
   - name: Kvv_3009Project
+    version: "1.0"
+  - name: DADA_ExtendedProperty
     version: "1.0"
   - name: WmJDBCAdapter
     version: 10.3.0.0.34
@@ -24,6 +31,8 @@ services:
   packages:
   - name: Kvv_3009Project
     version: "1.0"
+  - name: DADA_ExtendedProperty
+    version: "1.0"
   - name: WmJDBCAdapter
     version: 10.3.0.0.34
     wpmServer: https://packages.webmethods.io
@@ -31,6 +40,8 @@ services:
 - serviceName: project.kvv_3009.integrations:SIQAAdapterFlow
   packages:
   - name: Kvv_3009Project
+    version: "1.0"
+  - name: DADA_ExtendedProperty
     version: "1.0"
   - name: WmJDBCAdapter
     version: 10.3.0.0.34
