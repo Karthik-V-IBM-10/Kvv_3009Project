@@ -8,6 +8,7 @@ packages:
   gitUsername: Karthik-V-IBM-10
   gitBranch: main
 - name: WmJDBCAdapter
+  version: 10.3.0.0.34
   wpmServer: https://packages.webmethods.io
   wpmRegistry: licensed
 services:
@@ -19,7 +20,7 @@ services:
     version: 10.3.0.0.34
     wpmServer: https://packages.webmethods.io
     wpmRegistry: licensed
-- serviceName: project.kvv_3009.integrations:SIQAAdapterFlow
+- serviceName: project.kvv_3009.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.operations.actions:test
   packages:
   - name: Kvv_3009Project
     version: "1.0"
@@ -27,7 +28,7 @@ services:
     version: 10.3.0.0.34
     wpmServer: https://packages.webmethods.io
     wpmRegistry: licensed
-- serviceName: project.testman2603_1107b997670941958b8025084af6db48_export.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.operations.actions:TestDBConn
+- serviceName: project.kvv_3009.integrations:SIQAAdapterFlow
   packages:
   - name: Kvv_3009Project
     version: "1.0"
